@@ -30,8 +30,8 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
 
-@Preview(showBackground = true)
 @Composable
+@Preview(showBackground = true)
 fun DefaultPreview() {
     MarketTheme {
         MainLogin()
